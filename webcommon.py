@@ -29,12 +29,9 @@ def go_to(context, location, **kwargs):
     # adding implicit wait
     wait = kwargs['implicitly_wait'] if 'implicitly_wait' in kwargs.keys() else 15
     context.driver.implicitly_wait(wait)
-    # clean the urk and go to the url
-    # import pdb; pdb.set_trace()
+    # clean the url and go to the url
     url = url.strip()
-    logger.info("222222")
     logger.info(f"Navigating to URL: {url}")
-    # url = 'https://' + url
     context.driver.get(url)
 
 
