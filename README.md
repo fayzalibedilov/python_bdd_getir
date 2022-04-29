@@ -1,1 +1,1 @@
-# python_bdd_getir
+# Automating tasks in Getir a quick commerce website 
