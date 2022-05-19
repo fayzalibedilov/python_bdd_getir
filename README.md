@@ -1,1 +1,1 @@
-# Automating tasks in Getir a quick commerce website 
+# Automating tasks in Trendyol a quick commerce website 
